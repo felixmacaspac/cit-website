@@ -178,6 +178,10 @@ section {
   color: white;
 }
 
+.hero-image {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .hero-intro {
     display: flex;
