@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CIT Website</title>
+	<title>Homepage</title>
 	<link href="./styles.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,18 +12,16 @@
   </head>
   <body>
 		<main>
-			<!-- Header -->
 			<header class="header">
 				<div class="container">
 					<div class="header-wrapper">
-						<a href="/">
-							<img src="./image/nu-dasma-logo.png" alt="logo" class="header-logo">
+						<a href="./index.html">
+							<img src="./image/nu-dasma-logo.png" alt="national university dasma logo" class="header-logo" width="150" height="auto">
 						</a>
 						<nav class="header-nav">
-							<a class="header-nav__link" href="#home">Home</a>
-							<a class="header-nav__link" href="#about">About</a>
-							<a class="header-nav__link" href="#news">News</a>
-							<a class="header-nav__link" href="#events">Events</a>
+							<a class="header-nav__link" href="./index.html">Home</a>
+							<a class="header-nav__link" href="./about.html">About</a>
+							<a class="header-nav__link" href="./events.html">Events</a>
 						</nav>
 						<div class="header-social">
 							<a href="https://www.facebook.com/NUDasmaPH" class="header-social__links" target="_blank" rel="noopener noreferrer">
@@ -45,85 +43,46 @@
 					</div>
 				</div>
 			</header>
-			<!-- Hero -->
 			<section class="hero" id="home">
+				<img src="./image/nu-dasma-banner.png" alt="nu dasma banner" class="hero-background">
 				<div class="container">
-					<div class="hero-intro">
-						<div class="hero-content">
-							<h1 class="section-heading">NU-D Computer Society</h1>
-							<p class="hero-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis consequatur tempora totam molestiae veniam voluptatibus ipsum sunt ipsa officiis?</p>
-							<a class="hero-cta" href="/join">Join now</a>
+					<div class="hero-content">
+						<h1 class="section-heading">NU Dasmariñas</h1>
+						<p class="hero-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quis quam alias quas veniam totam necessitatibus ad quae cupiditate est sint sit beatae dolor error ipsam quos, suscipit mollitia? Molestias!</p>
+						<a class="hero-cta" href="https://www.facebook.com/NUDasmaPH" target="_blank" rel="noopener noreferrer">INQUIRE NOW!</a>
+					</div>
+				</div>
+			</section>
+			<section class="two-column">
+				<div class="container">
+					<div class="two-column__wrapper">
+						<div class="two-column__item">
+							<h2 class="section-heading">Bachelor of Science in Computer Science with specialization in machine learning</h2>
+							<p class="two-column__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet aliquam nesciunt praesentium, consequatur inventore ipsum earum. Voluptas, id debitis!</p>
 						</div>
-						<div class="hero-image">
-							<img src="./image/banner-cit.jpg" alt="" class="hero-banner">
+						<div class="two-column__item">
+							<img src="./image/gen-assembly.jpg" alt="class picture CS" class="two-column__image">
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- About -->
-			<section class="about" id="about">
+			<section class="two-column --invert">
 				<div class="container">
-					<h2 class="section-heading">About</h2>
-					<p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus distinctio aspernatur voluptatem reprehenderit repellat in, cum repellendus, non eligendi cupiditate provident fugiat consequuntur dolores sapiente exercitationem eaque temporibus tempora.</p>
-					<div class="about-wrapper">
-						<img class="about-image" src="./image/sportsfest-team.jpg" alt="">
-						<img class="about-image" src="./image/sportsfest-team-2.jpg" alt="">
-						<img class="about-image" src="./image/sportsfest-team-3.jpg" alt="">
-						<img class="about-image" src="./image/sportsfest-team-4.jpg" alt="">
-					</div>
-				</div>
-			</section>
-			<!-- News -->
-			<section class="news" id="news">
-				<div class="container">
-					<div class="news-wrapper">
-						<img class="news-image" src="./image/news-image.jpg" alt="">
-						<div class="news-content">
-							<h2 class="section-heading">News</h2>
-							<p class="news-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro voluptatibus distinctio aspernatur voluptatem reprehenderit repellat in, cum repellendus, non eligendi cupiditate provident fugiat consequuntur dolores sapiente exercitationem eaque temporibus tempora.</p>
-							<a class="hero-cta" href="/join">Register now</a>
+					<div class="two-column__wrapper">
+						<div class="two-column__item">
+							<h2 class="section-heading">Bachelor of Science in Computer Science with specialization in Mobile and Web Applications</h2>
+							<p class="two-column__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eveniet aliquam nesciunt praesentium, consequatur inventore ipsum earum. Voluptas, id debitis!</p>
+						</div>
+						<div class="two-column__item">
+							<img src="./image/gen-assembly-it.jpg" alt="class picture IT" class="two-column__image">
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- Events -->
-			<section class="events" id="events">
-				<div class="container">
-					<h2 class="section-heading">Events</h2>
-					<div class="events-content">
-						<div class="events-item">
-							<div class="events-item__cover">
-								<img class="events-item__image" src="./image/sportsfest-team-5.jpg" alt="">
-							</div>
-							<div class="events-item__wrapper">
-								<h3 class="events-item__title">SPORTSFEST</h3>
-								<p class="events-item__description">Lorem ipsum dolor sit amet.</p>
-							</div>
-						</div>
-						<div class="events-item">
-							<div class="events-item__cover">
-								<img class="events-item__image" src="./image/computer-person.jpg" alt="">
-							</div>
-							<div class="events-item__wrapper">
-								<h3 class="events-item__title">HACKACTHON</h3>
-								<p class="events-item__description">Lorem ipsum dolor sit amet.</p>
-							</div>
-						</div>
-						<div class="events-item">
-							<div class="events-item__cover">
-								<img class="events-item__image" src="./image/gen-assembly.jpg" alt="">
-							</div>
-							<div class="events-item__wrapper">
-								<h3 class="events-item__title">GENERAL ASSEMBLY</h3>
-								<p class="events-item__description">Lorem ipsum dolor sit amet.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- Footer -->
 			<footer class="footer">
-				<h6 class="footer-credits">Created with 💖 by <a href="https://github.com/felixmacaspac" target="_blank">Felix Macaspac</a></h6>
+				<div class="container">
+					<h6 class="footer-credits">Created with 💖 by <a href="https://github.com/felixmacaspac" target="_blank">Felix Macaspac</a></h6>
+				</div>
 			</footer>
 		</main>
   </body>
